@@ -1,0 +1,21 @@
+📌 Rules (very important)
+
+1. data/
+raw dataset only
+never modify original file
+
+2. scripts/
+each file = one stage of pipeline
+clean, modular, ordered
+
+3. outputs/
+everything generated:
+cleaned datasets
+graphs
+exported results
+
+4. root files
+README.md
+project explanation
+workflow
+insights

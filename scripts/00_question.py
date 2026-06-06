@@ -1,78 +1,50 @@
 """
-🎯 Goal: Understand the dataset first
+POKEMON DATA ANALYSIS - QUESTION FRAMEWORK
+"""
 
-What is this dataset about?
+# 🎯 OBJECTIVE
+"""
+Understand Pokémon dataset structure and define key analytical goals.
+We aim to analyze stats, types, generations, and strength patterns.
+"""
 
-→ Pokémon stats, types, strengths, generations
-
-
-
-
-
-📊 Basic Data Questions
-
+# 📊 BASIC DATA UNDERSTANDING
+"""
 1. How many Pokémon are in the dataset?
-
-2. How many features (columns) do we have?
-
+2. How many columns exist?
 3. What are the column names?
+4. What are the data types (numeric vs categorical)?
+"""
 
-4. What data types exist (numeric / categorical)? 
+# 🧹 DATA QUALITY CHECKS
+"""
+5. Missing values?
+6. Duplicate Pokémon entries?
+7. Correct data types?
+"""
 
+# 🔍 CORE ANALYSIS QUESTIONS
+"""
+8. Strongest Pokémon (by total stats)?
+9. Weakest Pokémon?
+10. Average HP / Attack / Defense?
+"""
 
+# ⚔️ TYPE ANALYSIS
+"""
+11. Most common Type 1?
+12. Type 1 with highest average Attack?
+13. Strongest Type 2 combinations?
+"""
 
+# 📈 COMPARISON ANALYSIS
+"""
+14. Legendary vs Non-Legendary stats comparison
+15. Strongest generation
+"""
 
-
-🧹 Data Quality Questions
-
-5. Are there missing values?
-
-6. Are there duplicate Pokémon entries?
-
-7. Do all columns have correct data types?
-
-
-
-
-
-🔍 Pokémon Analysis Questions (IMPORTANT)
-
-8. Which Pokémon has the highest total stats?
-
-9. Which Pokémon has the lowest total stats?
-
-10. What is the average HP / Attack / Defense?
-
-
-
-
-
-⚔️ Type Analysis (Very Important for Internship Level) 
-
-11. Which Type 1 is most common?
-
-12. Which Type 1 has highest average Attack?
-
-13. Which Type 2 combinations are strongest?
-
-
-
-
-
-📈 Comparative Questions
-
-14. Legendary vs Non-Legendary: - Who has higher average stats?
-
-15. Generation comparison: - Which generation has strongest Pokémon?
-
-
-
-
-
-🧪 Feature Thinking Questions 
-
-16. Can we create a new column like: - "Power Score" = sum of all stats?
-
-17. Can we classify Pokémon as: - Weak / Average / Strong?
-
+# 🧪 FEATURE ENGINEERING IDEAS
+"""
+16. Create Power Score (sum of all stats)
+17. Classify Pokémon: Weak / Average / Strong
 """
