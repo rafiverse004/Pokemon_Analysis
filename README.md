@@ -1,25 +1,27 @@
 # 🧠 Pokémon Data Analysis (Python + Pandas)
 
 ## 📌 Overview
-This project explores a Pokémon dataset to perform exploratory data analysis (EDA) using Python.  
-The goal is to understand Pokémon stats, types, and strength patterns through data cleaning and analysis.
+This project is my first end-to-end exploratory data analysis (EDA) using Python and Pandas.
+
+I worked on a Pokémon dataset to understand how different attributes like stats, types, and generations relate to each other, and to practice real data analysis workflow step by step.
 
 ---
 
 ## 🎯 Objectives
-- Understand dataset structure and quality
-- Clean and prepare raw data for analysis
-- Analyze Pokémon strength, types, and generations
-- Create meaningful features like Power Score
-- Extract actionable insights from data
+- Understand and explore a real-world dataset
+- Clean and prepare data for analysis
+- Analyze Pokémon strength and type distribution
+- Create simple engineered features for better interpretation
+- Extract meaningful insights using pandas
 
 ---
 
 ## 📂 Dataset
 - Source: Kaggle Pokémon dataset
-- Contains attributes such as:
+- Each Pokémon has attributes like:
   - HP, Attack, Defense, Speed
-  - Type 1, Type 2
+  - Special Attack / Defense
+  - Type 1 and Type 2
   - Generation
   - Legendary status
 
@@ -27,30 +29,52 @@ The goal is to understand Pokémon stats, types, and strength patterns through d
 
 ## ⚙️ Workflow
 
+The project was done in structured steps:
+
 1. Load and inspect dataset
-2. Data cleaning (missing values, duplicates, types)
-3. Filtering and exploratory analysis
-4. Group-based insights (Type, Generation)
-5. Feature engineering (Power Score)
-6. Final insights and reporting
+2. Data cleaning and fixing missing values
+3. Filtering specific Pokémon groups
+4. Group-based analysis (Type, Generation, Legendary)
+5. Feature engineering for better understanding of strength
+6. Extracting insights from patterns
 
 ---
 
-## 🔍 Key Analysis Questions
-- Which Pokémon is the strongest and weakest?
-- Which types are most common and most powerful?
-- How do Legendary Pokémon compare to others?
-- Which generation has the strongest Pokémon?
-- Can we classify Pokémon by strength levels?
+## 🔍 Key Questions
+
+- Which Pokémon types are generally strongest?
+- How do Legendary Pokémon compare to normal ones?
+- Is there any trend across generations?
+- Can Pokémon be grouped into roles like attacker or defender?
 
 ---
 
 ## 🧪 Feature Engineering
-- Power Score = Sum of all base stats
-- Strength classification:
-  - Weak
-  - Average
-  - Strong
+
+To better understand Pokémon strength, I created new features:
+
+- **Offensive_Power** = Attack + Special Attack  
+- **Defensive_Power** = Defense + Special Defense  
+- **Power_Difference** = Offensive_Power − Defensive_Power  
+
+Based on these, Pokémon were classified into:
+
+- Attacker  
+- Defender  
+- Balanced  
+
+This helped simplify raw stats into more meaningful gameplay roles.
+
+---
+
+## 📊 Key Insights
+
+- Dragon-type Pokémon tend to have the highest average attack.
+- Steel-type Pokémon are strongest in defense.
+- Legendary Pokémon are significantly stronger than non-legendary ones on average.
+- Generation 4 shows the highest average total stats, while Generation 2 is the lowest.
+- There is no clear trend showing that newer generations are always stronger.
+- Most Pokémon fall into the “Balanced” category based on engineered features.
 
 ---
 
@@ -61,43 +85,22 @@ The goal is to understand Pokémon stats, types, and strength patterns through d
 
 ---
 
-## 📈 Outcome
-- Cleaned and structured dataset
-- Multiple analytical insights derived
-- Feature engineering applied
-- End-to-end exploratory data analysis workflow using real dataset
-- Business-style insights extracted from raw data
+## 🚀 What I Learned
+- How to structure a full data analysis project
+- How to clean and explore real datasets
+- How to use groupby for insights
+- How feature engineering helps simplify analysis
+- How to think in terms of patterns, not just code
 
 ---
 
-## 🚀 Future Improvements
-- Add interactive visualizations
-- Build dashboard (Power BI / Streamlit)
-- Apply machine learning classification
+## 📌 Future Improvements
+- Add visualizations (matplotlib / seaborn)
+- Build interactive dashboard (Streamlit or Power BI)
+- Try classification model to predict Pokémon role
+- Add more feature engineering ideas
 
+---
 
-## 📊 Dataset Overview (Step 1 - Load & Inspect)
-
-- 800 Pokémon, 13 features
-- No duplicate entries
-- Missing values only in **Type 2** (expected — single-type Pokémon exist)
-- Most common Type 1: Water
-- Most common Type 2: Flying
-- Legendary Pokémon: 65 (rare class ~8%)
-
-
-## Step 2 - Cleaning
-
-- 386 values missing in **Type_2**
-- Missing values are represented as NaN(Maybe)
-- No duplicates
-- No incorrect data types
-- And changed some columns name
-
-
-## Step 3 - Filtering
-
-- This stage focuses on filtering Pokémon data into meaningful analytical segments. These subsets are used for comparative analysis and insight generation.
-- Legendary, Legendary_strong, Non-Legendary, non_legendary_strong, fast, water, water_flying, fire_electric
-
-
+## 📈 Final Note
+This is my first structured data analysis project, focused on learning and applying real-world data analysis steps rather than building a perfect solution.
