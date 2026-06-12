@@ -93,3 +93,11 @@ The goal is to understand Pokémon stats, types, and strength patterns through d
 - No duplicates
 - No incorrect data types
 - And changed some columns name
+
+
+## Step 3 - Filtering
+
+- This stage focuses on filtering Pokémon data into meaningful analytical segments. These subsets are used for comparative analysis and insight generation.
+- Legendary, Legendary_strong, Non-Legendary, non_legendary_strong, fast, water, water_flying, fire_electric
+
+

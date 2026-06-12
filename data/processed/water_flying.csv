@@ -1,0 +1,8 @@
+Serial_No,Name,Type_1,Type_2,Total,HP,Attack,Defense,Sp_Atk,Sp_Def,Speed,Generation,Legendary
+130,Gyarados,Water,Flying,540,95,125,79,60,100,81,1,False
+226,Mantine,Water,Flying,465,65,40,70,80,140,70,2,False
+278,Wingull,Water,Flying,270,40,30,30,55,30,85,3,False
+279,Pelipper,Water,Flying,430,60,50,100,85,70,65,3,False
+458,Mantyke,Water,Flying,345,45,20,50,60,120,50,4,False
+580,Ducklett,Water,Flying,305,62,44,50,44,50,55,5,False
+581,Swanna,Water,Flying,473,75,87,63,87,63,98,5,False

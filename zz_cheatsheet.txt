@@ -1,0 +1,223 @@
+----------Loading Data----------
+
+pd.read_csv()       # Load CSV file
+pd.read_excel()     # Load Excel file
+pd.read_json()      # Load JSON file
+
+
+----------Inspection----------
+
+head()              # First rows
+tail()              # Last rows
+sample()            # Random rows
+
+shape               # Rows, columns
+columns             # Column names
+index               # Row labels
+
+dtypes              # Data types
+info()              # Dataset summary
+describe()          # Numeric statistics
+
+describe(include="object")  # Categorical summary
+
+nunique()           # Unique count
+unique()            # Unique values
+
+value_counts()      # Frequency count
+
+
+----------Missing Values----------
+
+isnull()            # Detect missing values
+notnull()           # Detect non-missing values
+
+isnull().sum()      # Missing count
+
+fillna()            # Fill missing values
+dropna()            # Remove missing values
+
+
+----------Duplicates----------
+
+duplicated()        # Find duplicates
+drop_duplicates()   # Remove duplicates
+
+
+----------Data Types----------
+
+astype()            # Change data type
+
+pd.to_datetime()    # Convert to datetime
+pd.to_numeric()     # Convert to numeric
+
+
+----------Column Operations----------
+
+rename()            # Rename columns
+
+drop()              # Remove columns/rows
+
+insert()            # Insert column
+
+assign()            # Create columns
+
+
+----------Selecting Data----------
+
+loc[]               # Label-based selection
+iloc[]              # Position-based selection
+
+at[]                # Single value by label
+iat[]               # Single value by position
+
+
+----------Filtering----------
+
+isin()              # Match list of values
+
+between()           # Range filter
+
+query()             # SQL-like filtering
+
+Examples:
+
+df[df["Attack"] > 100]
+
+df["Type 1"].isin(["Fire","Water"])
+
+df["HP"].between(50,100)
+
+
+----------Sorting----------
+
+sort_values()       # Sort rows
+
+sort_index()        # Sort index
+
+nlargest()          # Top values
+
+nsmallest()         # Bottom values
+
+rank()              # Ranking
+
+
+----------Aggregation----------
+
+sum()
+
+mean()
+
+median()
+
+mode()
+
+min()
+
+max()
+
+count()
+
+std()
+
+var()
+
+
+----------GroupBy----------
+
+groupby()           # Group data
+
+agg()               # Multiple aggregations
+
+transform()         # Group calculations
+
+filter()            # Filter groups
+
+Example:
+
+df.groupby("Type 1")["Attack"].mean()
+
+
+----------Pivot Tables----------
+
+pivot_table()       # Summary table
+
+pivot()             # Reshape table
+
+crosstab()          # Frequency table
+
+
+----------String Operations----------
+
+str.lower()
+
+str.upper()
+
+str.strip()
+
+str.replace()
+
+str.contains()
+
+str.startswith()
+
+str.endswith()
+
+str.split()
+
+str.len()
+
+
+----------Feature Engineering----------
+
+apply()             # Apply function
+
+map()               # Map values
+
+replace()           # Replace values
+
+Often used with:
+
+lambda
+
+np.where()
+
+
+----------Datetime----------
+
+dt.year
+
+dt.month
+
+dt.day
+
+dt.weekday
+
+dt.hour
+
+
+----------Combining Data----------
+
+merge()             # SQL join
+
+concat()            # Stack data
+
+join()              # Join by index
+
+
+----------Reshaping----------
+
+melt()              # Wide → long
+
+pivot()             # Long → wide
+
+explode()           # Expand lists
+
+
+----------Exporting----------
+
+to_csv()
+
+to_excel()
+
+to_json()

@@ -1,0 +1,40 @@
+Serial_No,Name,Type_1,Type_2,Total,HP,Attack,Defense,Sp_Atk,Sp_Def,Speed,Generation,Legendary
+3,VenusaurMega Venusaur,Grass,Poison,625,80,100,123,122,120,80,1,False
+6,CharizardMega Charizard X,Fire,Dragon,634,78,130,111,130,85,100,1,False
+6,CharizardMega Charizard Y,Fire,Flying,634,78,104,78,159,115,100,1,False
+9,BlastoiseMega Blastoise,Water,,630,79,103,120,135,115,78,1,False
+94,GengarMega Gengar,Ghost,Poison,600,60,65,80,170,95,130,1,False
+127,PinsirMega Pinsir,Bug,Flying,600,65,155,120,65,90,105,1,False
+130,GyaradosMega Gyarados,Water,Dark,640,95,155,109,70,130,81,1,False
+142,AerodactylMega Aerodactyl,Rock,Flying,615,80,135,85,70,95,150,1,False
+149,Dragonite,Dragon,Flying,600,91,134,95,100,100,80,1,False
+151,Mew,Psychic,,600,100,100,100,100,100,100,1,False
+181,AmpharosMega Ampharos,Electric,Dragon,610,90,95,105,165,110,45,2,False
+208,SteelixMega Steelix,Steel,Ground,610,75,125,230,55,95,30,2,False
+212,ScizorMega Scizor,Bug,Steel,600,70,150,140,65,100,75,2,False
+214,HeracrossMega Heracross,Bug,Fighting,600,80,185,115,40,105,75,2,False
+229,HoundoomMega Houndoom,Dark,Fire,600,75,90,90,140,90,115,2,False
+248,Tyranitar,Rock,Dark,600,100,134,110,95,100,61,2,False
+248,TyranitarMega Tyranitar,Rock,Dark,700,100,164,150,95,120,71,2,False
+251,Celebi,Psychic,Grass,600,100,100,100,100,100,100,2,False
+254,SceptileMega Sceptile,Grass,Dragon,630,70,110,75,145,85,145,3,False
+257,BlazikenMega Blaziken,Fire,Fighting,630,80,160,80,130,80,100,3,False
+260,SwampertMega Swampert,Water,Ground,635,100,150,110,95,110,70,3,False
+282,GardevoirMega Gardevoir,Psychic,Fairy,618,68,85,65,165,135,100,3,False
+289,Slaking,Normal,,670,150,160,100,95,65,100,3,False
+306,AggronMega Aggron,Steel,,630,70,140,230,60,80,50,3,False
+373,Salamence,Dragon,Flying,600,95,135,80,110,80,100,3,False
+373,SalamenceMega Salamence,Dragon,Flying,700,95,145,130,120,90,120,3,False
+376,Metagross,Steel,Psychic,600,80,135,130,95,90,70,3,False
+376,MetagrossMega Metagross,Steel,Psychic,700,80,145,150,105,110,110,3,False
+445,Garchomp,Dragon,Ground,600,108,130,95,80,85,102,4,False
+445,GarchompMega Garchomp,Dragon,Ground,700,108,170,115,120,95,92,4,False
+448,LucarioMega Lucario,Fighting,Steel,625,70,145,88,140,70,112,4,False
+475,GalladeMega Gallade,Psychic,Fighting,618,68,165,95,65,115,110,4,False
+488,Cresselia,Psychic,,600,120,70,120,75,130,85,4,False
+490,Manaphy,Water,,600,100,100,100,100,100,100,4,False
+635,Hydreigon,Dark,Dragon,600,92,105,90,125,90,98,5,False
+648,MeloettaAria Forme,Normal,Psychic,600,100,77,77,128,128,90,5,False
+648,MeloettaPirouette Forme,Normal,Fighting,600,100,128,90,77,77,128,5,False
+649,Genesect,Bug,Steel,600,71,120,95,120,95,99,5,False
+706,Goodra,Dragon,,600,90,100,70,110,150,80,6,False
