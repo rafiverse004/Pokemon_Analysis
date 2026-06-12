@@ -58,7 +58,6 @@ The goal is to understand Pokémon stats, types, and strength patterns through d
 - Python
 - Pandas
 - NumPy
-- Matplotlib / Seaborn
 
 ---
 
@@ -66,7 +65,8 @@ The goal is to understand Pokémon stats, types, and strength patterns through d
 - Cleaned and structured dataset
 - Multiple analytical insights derived
 - Feature engineering applied
-- Real-world EDA pipeline practice
+- End-to-end exploratory data analysis workflow using real dataset
+- Business-style insights extracted from raw data
 
 ---
 
@@ -74,3 +74,22 @@ The goal is to understand Pokémon stats, types, and strength patterns through d
 - Add interactive visualizations
 - Build dashboard (Power BI / Streamlit)
 - Apply machine learning classification
+
+
+## 📊 Dataset Overview (Step 1 - Load & Inspect)
+
+- 800 Pokémon, 13 features
+- No duplicate entries
+- Missing values only in **Type 2** (expected — single-type Pokémon exist)
+- Most common Type 1: Water
+- Most common Type 2: Flying
+- Legendary Pokémon: 65 (rare class ~8%)
+
+
+## Step 2 - Cleaning
+
+- 386 values missing in **Type_2**
+- Missing values are represented as NaN(Maybe)
+- No duplicates
+- No incorrect data types
+- And changed some columns name
